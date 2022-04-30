@@ -51,7 +51,7 @@ In case of fake photos, they have three groups: easy, mid, and hard. We plan to 
 ![Model architecture](https://user-images.githubusercontent.com/68460588/166117329-f3a011bc-9a74-479f-81bc-1d8247d12af7.jpg)
 
 The image is preprocessed using three image preprocessing techniques (image resize, color space conversion, and normalization). 
-Nest, the image is moved into a pre-trained convolutional neural network (CNN) feature extractor, called VGG16 which extract spatial feature from the image.  
+Next, the image is moved into a pre-trained convolutional neural network (CNN) feature extractor, called VGG16 which extract spatial feature from the image.  
 After that, the output of the feature extractor is fed as input to the support vector machine (SVM) classifier.
 
 ---
@@ -79,9 +79,9 @@ After that, the output of the feature extractor is fed as input to the support v
 ---
 
 ### How to run
--	Download (app.py and Deepfake detector.pkl) files. Make sure both of them in the same directory.
--	Run app.py file using any Python IED. 
--	Open the link of the interface and upload image from your computer to classify it as fake or real.
+-	Download (Deepfake detector interface) folder that contain required files to run the interface. 
+-	Run app.py file (in Deepfake detector interface folder) using any Python IED. 
+-	Open the link of the interface and upload image from your device to classify it as fake or real.
 
 
 ---
