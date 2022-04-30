@@ -26,12 +26,7 @@ It is done as teamwork by Alhanouf Almansour, Kholod Alnufaie, Raghad Albosais a
 
 ### Project overview
 
-One of the strong techniques used in creating misinformation has become known recently as "Deepfake".
-Deepfakes increasingly threaten the privacy of individuals. Furthermore, Deepfakes can distort our perception of the truth and deceive us.
-The content of an image can shake the world either because it sparks controversy, or discredits someone. 
-An individual may be accused or suspected of a situation that did not actually occur. 
-For example, modifying a person’s expression to appear sad when in reality, they were happy to satisfy a fake narrative. 
-In response, we developed a deepfake detection model aiming to achieve better precision in predicting real and fake images.
+One of the strong techniques used in creating misinformation has become known recently as "Deepfake". Deepfakes increasingly threaten the privacy of individuals. Furthermore, Deepfakes can distort our perception of the truth and deceive us. The content of an image can shake the world either because it sparks controversy, or discredits someone. An individual may be accused or suspected of a situation that did not actually occur. For example, modifying a person’s expression to appear sad when in reality, they were happy to satisfy a fake narrative. In response, we developed a deepfake image detection model to achieve better precision in classification real and fake images using CNN and SVM. To illustrate the functionality of the model, we have included production by deployment the model.
 
 ---
 
