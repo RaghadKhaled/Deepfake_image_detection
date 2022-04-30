@@ -25,6 +25,7 @@ It is done as teamwork by Alhanouf Almansour, Kholod Alnufaie, Raghad Albosais a
 ---
 
 ### Project overview
+
 One of the strong techniques used in creating misinformation has become known recently as "Deepfake".
 Deepfakes increasingly threaten the privacy of individuals. Furthermore, Deepfakes can distort our perception of the truth and deceive us.
 The content of an image can shake the world either because it sparks controversy, or discredits someone. 
@@ -36,8 +37,7 @@ In response, we developed a deepfake detection model aiming to achieve better pr
 
 ### Data description
 
-
-We Detect fake image using “Real and Fake Face Detection” dataset from Kaggle in this [link](https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection)
+We Detect fake image using [Real and Fake Face Detection](https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection) dataset from Kaggle.
 The dataset contains expert-generated high-quality photoshopped face images. 
 The images are composite of different faces, separated by eyes, nose, mouth, or whole face. 
 The full dataset contains 452 MB of faces Inside the parent directory, training_real/training_fake contains real/fake face photos, respectively. 
@@ -47,6 +47,7 @@ In case of fake photos, they have three groups: easy, mid, and hard. We plan to 
 ---
 
 ### Model architecture
+
 ![Model architecture](Model architecture.jpg)
 
 The image is preprocessed using three image preprocessing techniques (image resize, color space conversion, and normalization). 
