@@ -75,6 +75,8 @@ After that, the output of the feature extractor is fed as input to the support v
 
 ### How to run
 -	Download (Deepfake detector interface) folder that contain required files to run the interface. 
+-	Unzipe 'Deepfake detector' folder in the 'Deepfake detector interface' folder.
+-	Put the content of unizped folder (Deepfake detector.pkl) in the 'Deepfake detector interface' folder.
 -	Run app.py file (in Deepfake detector interface folder) using any Python IED. 
 -	Open the link of the interface and upload image from your device to classify it as fake or real.
 
