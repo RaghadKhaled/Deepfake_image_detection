@@ -2,12 +2,13 @@
 
 <div align="center">
 <p>
-<img src="readme_images/project_display.gif" width="700" height="400"/>
+<img src="Deepfake-interface.gif" width="700" height="400"/>
 </p>
 <br>
 <div>
 </div>
 </div>
+
 
 
 ---
