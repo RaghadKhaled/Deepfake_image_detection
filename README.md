@@ -2,7 +2,7 @@
 
 <div align="center">
 <p>
-<img src="Deepfake interface.gif" width="700" height="400"/>
+<img src="ezgif.com-gif-maker (1).gif" width="700" height="400"/>
 </p>
 <br>
 <div>
