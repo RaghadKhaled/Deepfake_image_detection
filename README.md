@@ -12,7 +12,7 @@
 
 ---
 This is a college project required for a Machine Learning course.<br>
-It is done as teamwork by Alhanouf Almansour, Kholod Alnufaie, Raghad Albosais and Weaam Alghaith.
+It is done as teamwork by Alhanouf Almansour, Khloud Alnufaie, Raghad Albosais and Weaam Alghaith.
 
 ---
 ## Table of content
