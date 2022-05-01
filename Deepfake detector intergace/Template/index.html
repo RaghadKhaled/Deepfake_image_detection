@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Deepfake detector</title>
+</head>
+<style> 
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.body{
+  text-align: center;
+}
+.box input[type="submit"]{
+border: 0px;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #DAF7A6  ;
+padding: 14px 20px;
+outline: none;
+color: gray;
+border-radius: 20px;
+cursor: pointer;
+margin:10px;
+
+
+}
+
+.box input[type = "submit"]:hover{
+background: #793E5A;
+color: white;
+width: 80-098iipx;
+text-align: center;
+}
+
+.box input[type="file"]{
+border: 0px;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #DAF7A6  ;
+padding: 14px 10px;
+width: 400px;
+outline: none;
+color: gray;
+border-radius: 24px;
+}
+
+</style>
+
+<body class="body">
+  <img src="static\Deepfake.png" height="50%" width="100%" />
+  <div style="align:center;" class="container mt-5">
+  <div class="flex-container" class="custom-file mb-3 w-50">
+   <div><form method="POST" action="" enctype="multipart/form-data" class="box">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form></div>
+    <div>
+      {% if prediction  %}
+      <p> Image is a {{prediction}} </p>
+      {% endif %}
+    </div>
+    </div>
+  </div>
+    <br>
+    <br>
+
+  </div>
+</body>
+</html>
+
